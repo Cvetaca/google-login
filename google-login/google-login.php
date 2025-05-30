@@ -287,9 +287,6 @@ class GoogleLoginWP {
             
             // Custom greeting for specific users
             $custom_greeting = '';
-            if (in_array($current_user->user_email, array('tjaz@valentincic.eu', 'tjaz@mejasi.si'))) {
-                $custom_greeting = '<div class="google-login-greeting" style="text-align:center; margin-bottom:10px;">Pozdravljen bog spletne strani!</div>';
-            }
 
             $logout_html = '
             <div class="google-login-container logged-in">
